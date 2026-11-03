@@ -1,0 +1,19 @@
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shell syntax
+        run: |
+          sh -n build-sysroot.sh
+          sh -n tools/hatari-run.sh
+          sh -n tests/run-tests.sh
+      - name: include/osbind.h matches tools/gen-osbind.py
+        run: |
+          python3 tools/gen-osbind.py
+          git diff --exit-code include/osbind.h
