@@ -1,0 +1,9 @@
+# Never commit TOS ROM images: Atari TOS can't be redistributed. Tests use
+# EmuTOS, which is downloaded separately.
+*.img
+*.rom
+*.st
+*.msa
+/build-tos/
+/tests-out/
+__pycache__/
