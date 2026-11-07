@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (c) 2026, clang-dos
+ * Copyright (c) 2026 clang-retro contributors
  *
  * natfeats.h: Native Features, the interface emulators (Hatari, ARAnyM)
  * give programs to reach the host: print to the host's terminal, stop the

@@ -1,6 +1,6 @@
 #!/bin/sh
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (c) 2026, clang-dos
+# Copyright (c) 2026 clang-retro contributors
 #
 # Run an Atari program in Hatari with EmuTOS, headless, and print what it
 # writes to the console.

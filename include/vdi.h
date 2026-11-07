@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (c) 2026, clang-dos
+ * Copyright (c) 2026 clang-retro contributors
  *
  * vdi.h: the GEM VDI (Virtual Device Interface), TOS's graphics library.
  * The names and arguments follow the GEM documentation and gemlib. The

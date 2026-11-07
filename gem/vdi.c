@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (c) 2026, clang-dos
+ * Copyright (c) 2026 clang-retro contributors
  *
  * GEM VDI bindings. Each call fills the control array (opcode, number of
  * points in, number of integers in, sub-opcode, workstation handle) and

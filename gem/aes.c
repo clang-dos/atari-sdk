@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (c) 2026, clang-dos
+ * Copyright (c) 2026 clang-retro contributors
  *
  * GEM AES bindings. Each call fills the AES arrays, puts the address of
  * the parameter block in d1 and 200 in d0, and calls trap #2. The opcodes
