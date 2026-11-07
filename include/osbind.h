@@ -1,5 +1,5 @@
 /*
- * SPDX-License-Identifier: BSD-3-Clause
+ * SPDX-License-Identifier: AGPL-3.0-only
  * Copyright (c) 2026, clang-dos
  *
  * osbind.h: Atari TOS GEMDOS (trap #1), BIOS (trap #13) and XBIOS
