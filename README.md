@@ -17,7 +17,7 @@ EmuTOS, every 68k CPU) built with clang from
 - examples, and scripts to run programs on EmuTOS in Hatari.
 
 Everything here was written for this project from the public descriptions
-of the TOS calls and is under the BSD license, so the whole SDK can be
+of the TOS calls and is under the AGPL (see [License](#license)), so the whole SDK can be
 redistributed. Nothing from Atari's TOS, its ROMs or its development kits
 is used. Tests run on [EmuTOS](https://emutos.sourceforge.io), the free
 (GPL) TOS replacement, so no Atari ROM is needed either.
@@ -118,3 +118,19 @@ Falcon.
 - MiNT: this is plain TOS. MiNT runs TOS programs, but the C library
   doesn't use MiNT's calls (`Fopen` long names work through GEMDOS).
 - C++ (libc++).
+
+## License
+
+The clang-retro Atari SDK is free software under the GNU Affero General Public
+License, version 3 only (`AGPL-3.0-only`); the full text is in
+[LICENSE](LICENSE). If you distribute a program built with it, or let
+people use a modified version over a network, you must offer the
+program's complete source under the same license.
+
+A commercial license, for programs that cannot meet those terms, is
+available from the clang-retro project; ask through
+[the clang-retro organization on GitHub](https://github.com/clang-retro).
+
+Contributions are accepted under the Contributor License Agreement in
+[CONTRIBUTING.md](CONTRIBUTING.md), which lets the project offer the
+code under both licenses.

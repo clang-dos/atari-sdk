@@ -1,5 +1,5 @@
 /*
- * SPDX-License-Identifier: BSD-3-Clause
+ * SPDX-License-Identifier: AGPL-3.0-only
  * Copyright (c) 2026, clang-dos
  *
  * aes.h: the GEM AES (Application Environment Services), the window,

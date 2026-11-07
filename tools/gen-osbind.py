@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: AGPL-3.0-only
 # Copyright (c) 2026, clang-dos
 """Write include/osbind.h, the GEMDOS, BIOS and XBIOS bindings.
 
@@ -171,7 +171,7 @@ def macro(name, trap, num, ret, args, comment):
 
 
 HEAD = r'''/*
- * SPDX-License-Identifier: BSD-3-Clause
+ * SPDX-License-Identifier: AGPL-3.0-only
  * Copyright (c) 2026, clang-dos
  *
  * osbind.h: Atari TOS GEMDOS (trap #1), BIOS (trap #13) and XBIOS

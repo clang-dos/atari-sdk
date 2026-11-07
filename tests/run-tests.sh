@@ -1,5 +1,5 @@
 #!/bin/sh
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: AGPL-3.0-only
 # Copyright (c) 2026, clang-dos
 #
 # Build the examples and run them on EmuTOS in Hatari, on an ST (68000),
