@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (c) 2026, clang-dos
+ * Copyright (c) 2026 clang-retro contributors
  *
  * aes.h: the GEM AES (Application Environment Services), the window,
  * menu, dialog and event manager of TOS. The names and arguments follow

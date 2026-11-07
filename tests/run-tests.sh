@@ -1,6 +1,6 @@
 #!/bin/sh
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (c) 2026, clang-dos
+# Copyright (c) 2026 clang-retro contributors
 #
 # Build the examples and run them on EmuTOS in Hatari, on an ST (68000),
 # an STe, a TT (68030) and a Falcon (68030).
